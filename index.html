@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uday Surneni - Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #ff4081;
+            --secondary-color: #303f9f;
+            --accent-color: #ffeb3b;
+            --text-color: #ffffff;
+            --background-color: #1c1c1c;
+            --content-bg-color: #2c2c2c;
+            --shadow-color: rgba(255, 255, 255, 0.2);
+            --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3.5em;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        header a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        header a:hover {
+            color: #ff4081;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--content-bg-color);
+            box-shadow: 0 4px 8px var(--shadow-color);
+            border-radius: 10px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: var(--accent-color);
+            margin-bottom: 20px;
+            border-bottom: 3px solid var(--primary-color);
+            padding-bottom: 10px;
+        }
+
+        section p, section ul {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+        }
+
+        a img {
+            width: 32px;
+            height: 32px;
+            display: inline-block;
+            margin: 0 10px;
+            transition: transform 0.3s ease;
+        }
+
+        a img:hover {
+            transform: scale(1.1);
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            .container {
+                padding: 10px;
+            }
+
+            section h2 {
+                font-size: 1.8em;
+            }
+
+            section p, section ul {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Uday Surneni</h1>
+        <p>Software Engineer | Software Developer | DevOps Engineer</p>
+        <p>Email: <a href="mailto:surneniu@mail.gvsu.edu">surneniu@mail.gvsu.edu</a></p>
+        <p>
+            <a href="https://www.linkedin.com/in/uday-surneni-2b0a05221/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo">
+            </a>
+        </p>
+    </header>
+
+    <div class="container">
+        
+        <section>
+            <h2>About Me</h2>
+            <p>Computer Science Enthusiast looking for an opportunity to learn and grow in my career. Skilled in front-end development, DevOps, and microservices with experience in various technologies including HTML, CSS, JavaScript, and React.</p>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <p style="font-size: 1.5em; font-weight: bold; color: var(--accent-color);">Software Engineer, Skill-Lync (July 2022 – August 2023)</p>
+            <p>As a front-end developer, I was responsible for developing and maintaining user-friendly and responsive interfaces for the learning management system, program catalogs, dashboards, and internal company portals using HTML, CSS, JavaScript, and React.</p>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Personal Blog:</strong> Developed a full-stack blog platform for showcasing talents and interests.</li>
+                <li><strong>RideShare Mobile Application:</strong> Led a team to develop a ride-sharing app for students using React Native.</li>
+                <li><strong>Microservices Application Deployment:</strong> Deployed a microservices-based e-commerce platform using Kubernetes and Docker.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <p><strong>Master of Science in Applied Computer Science</strong> - Grand Valley State University, Michigan, USA (August 2023 – May 2025)</p>
+            <p><strong>Bachelor of Technology in Computer Science & Engineering</strong> - Sri Indu College of Engineering & Technology, Hyderabad, India (June 2018 – July 2022)</p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: C, C++, Java, Python, C#</li>
+                <li>Web Technologies: HTML, CSS, JavaScript</li>
+                <li>Frameworks: React, .Net, Spring, Django, Node.js, Angular</li>
+                <li>Databases: MySQL, MongoDB, PL/SQL</li>
+                <li>Tools: Jenkins, Jira, GitHub, NetBeans, Power BI, Jupyter Notebook</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Team's Github.io</h2>
+            <p>
+                You can visit our team's GitHub project here: 
+                <a href="https://chandra953.github.io/GVSU641-IntlStuds/" target="_blank">
+                    Open Team's Github.io
+                </a>
+            </p>
+        </section>
+
+        <section>
+            <h2>Project Description</h2>
+            <p>This semester, I’m working on developing an interactive web application for a jewelry store, designed to offer people a flawless experience for browsing the collection of jewelry. The design emphasizes creating a smooth and elegant page that displays the store’s collection in high quality. People can register or log in to their accounts and view them in a dynamic gallery on the homepage.</p>
+            <p>The system uses ultramodern web technologies i.e., React for the front end and Node.js for the backend, with MongoDB handling the database. I’m also enforcing secure stoner authentication through JSON Web Commemoratives (JWT) and ensuring that people can interact directly with the store proprietor. The design focuses on functionality, security, and a polished experience that aligns with the store's brand.</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Uday Surneni. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
